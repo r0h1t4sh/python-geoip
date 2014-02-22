@@ -11,12 +11,12 @@ class FlaskyStyle(Style):
     styles = {
         # No corresponding class for the following:
         #Text:                     "", # class:  ''
-        Whitespace:                "underline #f8f8f8",      # class: 'w'
-        Error:                     "#a40000 border:#ef2929", # class: 'err'
-        Other:                     "#000000",                # class 'x'
+        Whitespace:                "underline #f8f8f8",       # class: 'w'
+        Error:                     "#a40000 border:#ef2929",  # class: 'err'
+        Other:                     "#000000",                 # class 'x'
 
-        Comment:                   "italic #8f5902", # class: 'c'
-        Comment.Preproc:           "noitalic",       # class: 'cp'
+        Comment:                   "italic #8f5902",  # class: 'c'
+        Comment.Preproc:           "noitalic",        # class: 'cp'
 
         Keyword:                   "bold #004461",   # class: 'k'
         Keyword.Constant:          "bold #004461",   # class: 'kc'
